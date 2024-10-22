@@ -11,16 +11,16 @@ import moment from 'moment-timezone'
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
-global.botNumberCode = '' //Ejemplo: +573218138672
+global.botNumberCode = '' //Ejemplo: +524274130309
 global.confirmCode = ''
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-   ['51923300039', 'Creador 👑', true],
-   ['51994143761', 'Owner 🍭', true],
-   ['51923300039'],
-   ['51923300039']
+   ['524274130309', '𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 👑', true],
+   ['524274130309', '𝐒𝐎𝐏𝐎𝐑𝐓𝐄 🌟', true],
+   ['524274130309'],
+   ['524274130309']
 ]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -36,19 +36,19 @@ global.libreria = 'Baileys'
 global.baileys = 'V 6.7.8'
 global.vs = '2.0.7'
 global.languaje = 'Español'
-global.nameqr = 'Ai Otho'
-global.namebot = 'Ai Otho - MD'
-global.sessions = 'OthoSession'
-global.jadi = 'OthoJadiBot'
+global.nameqr = 'Spectrum|Ai'
+global.namebot = 'Spectrum-Ai'
+global.sessions = 'SpectrumSession'
+global.jadi = 'SpectrumJadiBot'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ 𝐀𝐢 𝐎𝐭𝐡𝐨 - 𝐌𝐃 ✰⪜'
-global.botname = 'Ai Otho ✨️'
-global.wm = 'Otho 🌸'
-global.author = 'Made By DevDaniel 👑'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ძᥱ᥎ძᥲᥒіᥱᥣ ❀'
-global.textbot = 'Ai Otho : DevDanielu 🚩'
+global.packname = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑'
+global.botname = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑'
+global.wm = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑'
+global.author = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑'
+global.dev = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑'
+global.textbot = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
