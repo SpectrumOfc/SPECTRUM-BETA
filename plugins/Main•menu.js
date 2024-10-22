@@ -32,19 +32,20 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let menu = ``;
 
     let txt =  ` *👋🏻𝐒𝐚𝐥𝐮𝐝𝐨𝐬 𝐮𝐬𝐮𝐚𝐫𝐢𝐨, 𝐭𝐞 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐨 𝐦𝐢 𝐦𝐞𝐧ú 𝐝𝐞 𝐚𝐲𝐮𝐝𝐚...*\n\n`
-txt+= '`Creador:`' + ` +524274130309\n`;
-txt+= '`Bot:`' + ` 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑\n`;
-txt+= '`Fecha:`' + ` ${moment.tz('America/Bogota').format('DD/MM/YY')}\n`;
-txt+= '`Pais:`' + ` ${userNationality}\n`;
-txt+= '`Prefijo:`' + ` 「 ${usedPrefix} 」\n`;
-txt+= '`Usuarios:`' + ` ${rtotal}\n`;
-txt+= '`Contactos:` #owner\n';
-txt+= '`Uptime:`' + ` ${uptime}\n\n`"
+txt+= '`> Creador:`' + ` 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑\n`;
+txt+= '`> Bot:`' + ` 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑\n`;
+txt+= '`> Fecha:`' + ` ${moment.tz('America/Bogota').format('DD/MM/YY')}\n`;
+txt+= '`> Pais:`' + ` ${userNationality}\n`;
+txt+= '`> Prefijo:`' + ` 「 ${usedPrefix} 」\n`;
+txt+= '`> Usuarios:`' + ` ${rtotal}\n`;
+txt+= '`> Contactos:` #owner\n';
+txt+= '`> Uptime:`' + ` ${uptime}\n\n`;
+txt+= "> SPECTRUM-OFC"
 
     let listSections = [];
 
         listSections.push({
-        title: `𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒 | 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈`, highlight_label: `𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈`,
+        title: `OPCIONES`, highlight_label: `Popular Ai Otho - MD`,
         rows: [
             {
                 header: "AUTO VERIFICAR",
@@ -113,7 +114,7 @@ txt+= '`Uptime:`' + ` ${uptime}\n\n`"
     let img = "https://qu.ax/pETLp.jpg";
     let img2 = "https://qu.ax/pETLp.jpg";
 
-    await conn.sendListB(m.chat, menu, txt, ` 𝐎𝐏𝐂𝐈𝐎𝐍𝐄𝐒 | 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈⁩`, [vid, img, img2].getRandom(), listSections, esti);
+    await conn.sendListB(m.chat, menu, txt, ` OPCIONES⁩`, [vid, img, img2].getRandom(), listSections, esti);
  
  } catch (e) {
     conn.reply(m.chat, `「✿」 *Ocurrió un error al enviar el menú, use #allmenu para ver el menú completo.*\n\n${e}`, m, fake);
