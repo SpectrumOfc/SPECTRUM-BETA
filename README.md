@@ -50,7 +50,7 @@ npm start
 <div align="center">
   <h1 align="center">𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 𝐃𝐄 𝐂𝐎𝐍𝐓𝐀𝐂𝐓𝐎</h1>
 
-<a href="https://github.com/SpectrumOficial"><img src="https://github.com/SpectrumOficial.png" width="300" height="300" alt="SPECTRUM"/></a>
+
 
 <a href="https://www.instagram.com/cuenta.spectrum.oficial"><img alt="instagram oficial" src="https://img.shields.io/badge/Instagram%20Oficial-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 
