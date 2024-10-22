@@ -63,13 +63,13 @@ global.avatar = fs.readFileSync('./src/img/avatar_contact.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.grupo = 'https://chat.whatsapp.com/G9MpDVmJtbiIpItEZpg70s'
-global.channel = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
-global.channel2 = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
-global.md = 'https://github.com/DanielDiod/Ai-Otho' 
+global.grupo = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.channel = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.channel2 = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'
+global.md = 'https://github.com/SpectrumOfc' 
 global.yt = 'https://www.youtube.com/@'
 global.tiktok = 'https://tiktok.com/@'
-global.correo = 'danieldevelop3@gmail.com'
+global.correo = 'cuentaoficialspectrum@gmail.com'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
