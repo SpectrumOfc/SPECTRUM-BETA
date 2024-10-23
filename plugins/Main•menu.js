@@ -31,7 +31,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     m.react("📒");
     let menu = ``;
 
-    let txt =  ` *┏ \`𝐌𝐄𝐍Ú | 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈\` ┓*\n`
+    let txt =  ` *┏━ 𝐌𝐄𝐍Ú | 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 ━┓*\n`
 txt+= '┃ 𝐂𝐑𝐄𝐀𝐃𝐎𝐑:' + ` https://wa.link/dn0muq\n`;
 txt+= '┃ 𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒:' + ` ${rtotal}\n`;
 txt+= '┃ 𝐓𝐈𝐄𝐌𝐏𝐎 𝐀𝐂𝐓𝐈𝐕𝐎:' + ` ${uptime}\n┗━━━━━━━━━━━━━━━━━━┛`
