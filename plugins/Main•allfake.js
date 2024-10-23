@@ -33,10 +33,10 @@ let user = global.db.data.users[who]
 let pushname = m.pushName || 'Sin nombre'
 
 //creador y otros
-global.creador = 'Wa.me/51923300039'
-global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'https://wa.me/message/BTJGZ2PHZGQZO1'
-global.namechannel = 'Ai Otho - Channel'
+global.creador = 'https://wa.link/dn0muq'
+global.ofcbot = `𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑`
+global.asistencia = 'https://wa.link/dn0muq'
+global.namechannel = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑'
 
 //Reacciones De Comandos.!
 global.rwait = '🕒'
@@ -57,16 +57,16 @@ global.waittt = '🚀 Cargando...'
 global.waitttt = '🚀 Cargando...'
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'  
-var git = 'https://github.com/DanielDiod'  
-var github = 'https://github.com/DanielDiod/Ai-Otho'  
+var canal = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'  
+var git = 'https://github.com/SpectrumOfc'  
+var github = 'https://github.com/SpectrumOfc'  
 var panel = 'https://panel.skyultraplus.com'
 var dash = 'https://dash.skyultraplus.com'
 var tienda = 'https://dash.skyultraplus.com/store'
 var status = 'https://estado.skyultraplus.com'
-var discord = 'https://discord.com/invite/T7ksHu7mkz'
-var paypal = 'https://paypal.me/corinplus2024'
-let correo = 'danieldevelop3@gmail.com'
+var discord = 'https://discord.com/'
+var paypal = 'https://paypal.me/'
+let correo = 'cuentaoficialspectrum@gmail.com'
 
 global.redes = [canal, git, github, panel, dash, tienda, status, discord, paypal, correo].getRandom()
 
