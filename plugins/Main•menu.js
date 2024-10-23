@@ -28,19 +28,13 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
     let totalreg = Object.keys(global.db.data.users).length;
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length;
 
-    m.react("🍟");
+    m.react("📒");
     let menu = ``;
 
-    let txt =  ` *👋🏻𝐒𝐚𝐥𝐮𝐝𝐨𝐬 𝐮𝐬𝐮𝐚𝐫𝐢𝐨, 𝐭𝐞 𝐩𝐫𝐞𝐬𝐞𝐧𝐭𝐨 𝐦𝐢 𝐦𝐞𝐧ú 𝐝𝐞 𝐚𝐲𝐮𝐝𝐚...*\n\n`
-txt+= '`> Creador:`' + ` 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑\n`;
-txt+= '`> Bot:`' + ` 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 | 𝐀𝐈 👑\n`;
-txt+= '`> Fecha:`' + ` ${moment.tz('America/Bogota').format('DD/MM/YY')}\n`;
-txt+= '`> Pais:`' + ` ${userNationality}\n`;
-txt+= '`> Prefijo:`' + ` 「 ${usedPrefix} 」\n`;
-txt+= '`> Usuarios:`' + ` ${rtotal}\n`;
-txt+= '`> Contactos:` #owner\n';
-txt+= '`> Uptime:`' + ` ${uptime}\n\n`;
-txt+= "> SPECTRUM-OFC"
+    let txt =  ` *┏━ 𝐌𝐄𝐍Ú|𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 ━┓*\n\n`
+txt+= '`┃ 𝐂𝐑𝐄𝐀𝐃𝐎𝐑:`' + ` https://wa.link/dn0muq\n`;
+txt+= '`┃ 𝐓𝐎𝐓𝐀𝐋 𝐃𝐄 𝐔𝐒𝐔𝐀𝐑𝐈𝐎𝐒:`' + ` ${rtotal}\n`;
+txt+= '`┃ 𝐓𝐈𝐄𝐌𝐏𝐎 𝐀𝐂𝐓𝐈𝐕𝐎:`' + ` ${uptime}\n\n┗━━━━━━━━━━━━━━┛`
 
     let listSections = [];
 
